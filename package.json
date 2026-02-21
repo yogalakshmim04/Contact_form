@@ -1,0 +1,15 @@
+{
+  "name": "task1-contact-form",
+  "version": "1.0.0",
+  "description": "Contact form using Node.js, Express and EJS",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Yogalakshmi",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^4.0.1",
+    "express": "^5.2.1"
+  }
+}

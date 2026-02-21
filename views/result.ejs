@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Thank You</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+
+  <div class="container result-card">
+
+    <!-- 🔹 HEADER -->
+    <div class="result-header">
+      <h1>Welcome, <span><%= name %></span> 🎉</h1>
+      <p class="sub-text">We have received your message successfully</p>
+    </div>
+
+    <!-- 🔹 CONTENT -->
+    <div class="result-content">
+      <p><strong>Email:</strong> <%= email %></p>
+      <p><strong>Message:</strong> <%= message %></p>
+      <p class="time"><strong>Submitted at:</strong> <%= time %></p>
+    </div>
+
+    <!-- 🔹 FOOTER -->
+    <div class="result-footer">
+      <a href="/" class="btn-back">← Go Back</a>
+    </div>
+
+  </div>
+
+</body>
+</html>

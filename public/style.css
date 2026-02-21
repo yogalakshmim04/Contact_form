@@ -1,0 +1,175 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+/* 🌈 FULL PAGE GRADIENT */
+body {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #5eead4, #a78bfa, #ec4899);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* 🧊 CARD */
+.container {
+  width: 420px;
+  background: #ffffff;
+  padding: 2.8rem 2.6rem;
+  border-radius: 18px;
+
+  box-shadow: 0 30px 60px rgba(0, 0, 0, 0.18);
+}
+
+/* 🏷 HEADING */
+h1 {
+  text-align: center;
+  margin-bottom: 2.2rem;
+  font-size: 1.8rem;
+  color: #111827;
+}
+
+/* 📋 FORM */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.4rem;
+}
+
+input,
+textarea {
+  border: none;
+  border-bottom: 1.8px solid #d1d5db;
+  padding: 0.6rem 0.2rem;
+  font-size: 1rem;
+}
+
+textarea {
+  resize: none;
+  height: 80px;
+}
+
+input:focus,
+textarea:focus {
+  outline: none;
+  border-color: #6366f1;
+}
+
+/* 🚀 GRADIENT BUTTON */
+button {
+  margin-top: 2rem;
+  padding: 0.9rem;
+  border: none;
+  border-radius: 999px;
+
+  background: linear-gradient(
+    135deg,
+    #ec4899,
+    #8b5cf6,
+    #38bdf8
+  );
+
+  color: white;
+  font-size: 1.05rem;
+  font-weight: 500;
+  cursor: pointer;
+
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 15px 30px rgba(139, 92, 246, 0.4);
+}
+
+/* -------- RESULT PAGE -------- */
+
+.result-card {
+  padding: 3rem 3.2rem;
+}
+
+/* HEADER */
+.result-header {
+  text-align: center;
+  margin-bottom: 2.2rem;
+}
+
+.result-header h1 {
+  font-size: 2.1rem;
+  color: #111827;
+  margin-bottom: 0.6rem;
+}
+
+.result-header h1 span {
+  color: #7c3aed;
+}
+
+.sub-text {
+  font-size: 0.95rem;
+  color: #6b7280;
+}
+
+/* CONTENT */
+.result-content p {
+  font-size: 1.05rem;
+  color: #020617;
+  margin-bottom: 1.1rem;   /* ⭐ spacing fix */
+  line-height: 1.7;
+}
+
+.result-content strong {
+  color: #0f172a;
+}
+
+.time {
+  margin-top: 1.6rem;
+  font-size: 0.9rem;
+  color: #475569;
+}
+
+/* FOOTER */
+.result-footer {
+  margin-top: 2.5rem;
+  text-align: center;
+}
+
+/* SAME BUTTON STYLE AS CONTACT FORM */
+.btn-back {
+  display: inline-block;
+  padding: 0.9rem 2.2rem;
+  border-radius: 999px;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 500;
+  color: white;
+
+  background: linear-gradient(
+    135deg,
+    #ec4899,
+    #8b5cf6,
+    #38bdf8
+  );
+
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.btn-back:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 15px 30px rgba(139, 92, 246, 0.4);
+}
+
+
+.result-content p {
+  font-size: 1.05rem;
+  color: #020617;
+  margin-bottom: 1.1rem;
+  line-height: 1.7;
+
+  /* 🔥 IMPORTANT FIX */
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  white-space: pre-wrap;
+}
